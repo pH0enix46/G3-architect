@@ -170,3 +170,148 @@ body {
   margin-bottom: 2rem;
 }
 /* ⛔⛔⛔ */
+
+/* ENJOY✅✅✅ */
+.enjoy {
+  margin-bottom: 10rem;
+}
+
+.enjoy-full {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 8rem;
+}
+
+.enjoy-img img {
+  width: 100%;
+}
+
+.enjoy-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.enjoy-container h3 {
+  font-size: 2.4rem;
+  border-left: 0.4rem solid orange;
+  padding-left: 0.8rem;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+}
+
+.enjoy-container p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.enjoy-container-gedu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.enjoy-container-gedu div {
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1111);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4rem;
+}
+
+.enjoy-container-gedu span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.enjoy-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: relative;
+}
+
+.enjoy-img div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  padding: 2rem;
+
+  position: absolute;
+  bottom: -3rem;
+  left: -8rem;
+}
+
+.whitee {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+
+.blackk {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+/* ⛔⛔⛔ */
+
+/* FACTS✅✅✅ */
+.facts {
+  margin-bottom: 10rem;
+}
+
+.facts-start {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.facts-cart {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.facts-cart div {
+  padding: 4rem;
+  border: 2px solid rgba(255, 143, 14, 0.8);
+  border-radius: 8px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.facts-cart img {
+  width: 4rem;
+}
+
+.facts-cart strong {
+  font-size: 2.2rem;
+}
+
+.facts-cart span {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.facts-start > div h3 {
+  font-size: 2.8rem;
+}
+
+.facts-start > div p {
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+}
+/* ⛔⛔⛔ */
