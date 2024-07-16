@@ -271,20 +271,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  justify-content: center;
 }
 
 .facts-cart {
   display: flex;
+  gap: 0.8rem;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 6rem;
+  flex-wrap: wrap;
 }
 
 .facts-cart div {
   padding: 4rem;
   border: 2px solid rgba(255, 143, 14, 0.8);
   border-radius: 8px;
-  width: 100%;
+  width: 20rem;
 
   display: flex;
   flex-direction: column;
@@ -313,5 +314,61 @@ body {
 .facts-start > div p {
   margin-top: 0.8rem;
   font-size: 1.4rem;
+}
+/* ⛔⛔⛔ */
+
+/* SPONSORS✅✅✅ */
+.sponsors {
+  margin-bottom: 14rem;
+}
+
+.sponsors-start {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-start h2 {
+  font-size: 2.8rem;
+}
+
+.sponsors-start p {
+  font-size: 1.2rem;
+  max-width: 40rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sponsors-img {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors-img img {
+  height: 2.8rem;
+  filter: blur(0.4px) grayscale(100%);
+}
+/* ⛔⛔⛔ */
+
+/* FOOTER✅✅✅ */
+.footer {
+  border-bottom: 6px solid rgba(201, 133, 16, 0.6);
+}
+
+.footer-start {
+  background-color: rgba(255, 144, 14, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 0;
+  border-radius: 0.8rem;
+}
+
+.footer-start p {
+  font-size: 1.6rem;
+  opacity: 0.9;
 }
 /* ⛔⛔⛔ */
